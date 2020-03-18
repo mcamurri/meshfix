@@ -37,7 +37,6 @@
 #include <limits.h>
 #include <float.h>
 #include "coordinates.h"
-#define IS64BITPLATFORM 1
 
 namespace T_MESH
 {
