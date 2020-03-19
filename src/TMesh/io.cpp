@@ -132,7 +132,7 @@ char *readLineFromFile(FILE *in, bool exit_on_eof = 1)
     if (exit_on_eof) TMesh::error("\nUnexpected end of file!\n");
     else return NULL;
    }
-   else if (c != '\r') line[i++] = c;
+   else if (c != '\n') line[i++] = c;
  line[i] = '\0';
 
  if (i==MAX_READLINE_CHARS-1)
